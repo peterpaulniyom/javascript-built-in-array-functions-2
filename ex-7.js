@@ -1,7 +1,7 @@
 function isPalindrome(string) {
   const stringArray = string.split("");
   // const stringArrayReverse = stringArray.reverse();
-  console.log(stringArray === stringArray.reverse());
+  //console.log(stringArray === stringArray.reverse());
 
   const reversedArray = [...stringArray].reverse(); // create a reversed copy of array
   if (stringArray.join("")===reversedArray.join("")){
